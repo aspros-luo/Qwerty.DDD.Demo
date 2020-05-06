@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Qwerty.DDD.Domain.Events\Qwerty.DDD.Domain.Events.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Domain.ValueObject\Qwerty.DDD.Domain.ValueObject.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Infrastructure\Qwerty.DDD.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

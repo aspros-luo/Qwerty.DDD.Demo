@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qwerty.DDD.Application\Qwerty.DDD.Application.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Application.Interfaces\Qwerty.DDD.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Domain.EventHandlers\Qwerty.DDD.Domain.EventHandlers.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Domain.Events\Qwerty.DDD.Domain.Events.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Domain.Repository.Interfaces\Qwerty.DDD.Domain.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Infrastructure.Repository\Qwerty.DDD.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\Qwerty.DDD.Repository\Qwerty.DDD.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

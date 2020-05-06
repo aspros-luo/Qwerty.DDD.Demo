@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="aspros.domian.core" Version="0.0.2" />
+    <PackageReference Include="aspros.ioc.core" Version="0.0.1" />
+    <PackageReference Include="aspros.interface.core" Version="0.0.1" />
+  </ItemGroup>
+  
+</Project>
